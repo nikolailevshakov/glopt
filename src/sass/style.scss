@@ -742,3 +742,31 @@ footer {
         }
     }
 }
+@media screen and (max-width: 600px) {
+    #mobile {
+        display: none;
+    }
+    .wrapper_descr {
+        flex-wrap: wrap;
+    }
+    .advantages .container .wrapper_adv .adv {
+        width: 90%;
+    }
+    .china .container .wrapper_china {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .consultation .container .wrapper_delivery {
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .consultation .container .wrapper_delivery .item_delivery {
+        margin-bottom: 10px;
+    }
+    .scheme .container .wrapper_scheme {
+        grid-template-columns: 1fr;
+    }
+    .scheme .container .wrapper_scheme .item_scheme {
+        margin: 0 auto;
+    }
+}

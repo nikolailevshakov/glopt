@@ -1,0 +1,27 @@
+{
+  "name": "glopt",
+  "version": "1.0.0",
+  "description": "Web-site for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolailevshakov/glopt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolailevshakov/glopt/issues"
+  },
+  "homepage": "https://github.com/nikolailevshakov/glopt#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cli": "^2.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^3.0.2"
+  }
+}
